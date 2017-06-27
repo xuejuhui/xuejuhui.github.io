@@ -16,37 +16,37 @@
 
 4. Go to the website `<username>.github.io`!  You have a web presence now!! It's not perfect, but it will be a work in progress over the whole course and it's an excellent start! If you want to change the content, you're going to need a copy on your own computer to edit and improve.
 
-4. Click the clone or download button and copy the "clone URL."
+5. Click the clone or download button and copy the "clone URL."
 
   ![clone button](https://cloud.githubusercontent.com/assets/6520345/17565250/87ec41b8-5eeb-11e6-8fc8-280aa6e14611.png)
 
   ![clone url](https://cloud.githubusercontent.com/assets/6520345/17565297/bc8e85ca-5eeb-11e6-870d-3029f9f7ed5b.png)
 
-1. On your own computer, make a `wdi` directory in your home folder (`~`). This is where you will put all your work from this class. You can complete this in one command:
+6. On your own computer, make a `wdi` directory in your home folder (`~`). This is where you will put all your work from this class. You can complete this in one command:
   ```
   ➜ mkdir ~/wdi
   ```
 
-4. Use the "clone URL" to clone the repo onto your local machine. Make sure you're in your `~/wdi` directory before you clone!
+7. Use the "clone URL" to clone the repo onto your local machine. Make sure you're in your `~/wdi` directory before you clone!
 
   ```zsh
   ➜  cd ~/wdi
   ➜  git clone <clone-url>
   ```
 
-5. Change directories into the repo you just cloned (in this example, `<username>.github.io`).
+8. Change directories into the repo you just cloned (in this example, `<username>.github.io`).
 
   ```zsh
   ➜  cd <username>.github.io
   ```
 
-6. Open this project in Atom.
+9. Open this project in Atom.
 
   ```zsh
   atom .
   ```
 
-7. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
+10. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
   
   <details>
     <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
@@ -63,29 +63,29 @@
     <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
   </details>
 
-8. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
+11. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
 
-9. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
+12. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
 
   ```zsh
   ➜  git status
   ```
   This shows you the files that have been modified, created, or deleted. Notice that they are listed as `untracked`.
 
-10. Now you're ready to `add` your changes. Type
+13. Now you're ready to `add` your changes. Type
   ```
   ➜  git add .
   ```
   Now enter `git status`. Notice that your new file has gone from `untracked` to `Changes to be committed`.
 
-11. Next step is committing. Type the following:
+14. Next step is committing. Type the following:
 
   ```
   ➜  git commit -m "first edits to index.html"
   ```
   Now enter `git status` again. Notice that the new status is `Your branch is ahead of 'origin/master' by 1 commit.`. This indicates that your the version of the repo on your computer (aka the __local__ version) includes your changes but the version hosted by GitHub (aka the __remote__ version) does not.
 
-12. To get your changes on to the remote version of the repo, type
+15. To get your changes on to the remote version of the repo, type
 
   ```
   ➜  git push origin master
@@ -94,9 +94,9 @@
 
   Now `git status` will tell you that `Your branch is up-to-date with 'origin/master'.` __!!!__
 
-13. Check back in on your site to see the improvements deployed!
+16. Check back in on your site to see the improvements deployed!
 
-14. Repeat steps 11 onward at least three times to improve your site and practice this Git workflow.
+17. Repeat the git commit workflow each time you want to update your repository. Make sure to include a good commit message!
 
 # Deliverables
 
