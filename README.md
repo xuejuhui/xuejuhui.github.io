@@ -9,6 +9,7 @@
   ![forking](https://cloud.githubusercontent.com/assets/6520345/17570801/c0d27e36-5f02-11e6-8d44-f485301831ed.png)
 
 3. Now you have your own copy of the repo! In order to make this a live personal website, we're going to take advantage of GitHub's [*GitHub pages*](https://pages.github.com/) feature. All we need to do is change the repository name to `<fill in your GitHub username>.github.io`. Here's how:
+
   * Click on the settings tab toward the top of the page: ![settings tab](https://cloud.githubusercontent.com/assets/6520345/17564907/fc20986a-5ee9-11e6-8e7f-abc19c482a7b.png)
   * Find the repository name section and change it to `<username>.github.io` ![change repo name](https://cloud.githubusercontent.com/assets/6520345/17564950/2a69081a-5eea-11e6-8d17-8017954d8ad7.png)
   * Click the rename button.
@@ -45,46 +46,46 @@
   atom .
   ```
 
-1. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
-  *
+7. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
+  
   <details>
     <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
     <p>There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in the `vendor/css` folder because it's a file developed by somebody else (a vendor) and you won't be editing it. `main.css` is in the `assets/css` folder and is the custom styling that you'll spend time adjusting.</p>
   </details>
-  *  
+    
   <details>
     <summary>In the `<head>` element, change the `<title>` of the page. Where can you observe the impact of this change?</summary>
     <p>On the tab in the browser, your site will display a new name. It used to be "First Training."</p>
   </details>
-  *
+  
   <details>
     <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
     <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
   </details>
 
-1. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
+8. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
 
-6. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
+9. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
 
   ```zsh
   ➜  git status
   ```
   This shows you the files that have been modified, created, or deleted. Notice that they are listed as `untracked`.
 
-1. Now you're ready to `add` your changes. Type
+10. Now you're ready to `add` your changes. Type
   ```
   ➜  git add .
   ```
   Now enter `git status`. Notice that your new file has gone from `untracked` to `Changes to be committed`.
 
-1. Next step is committing. Type the following:
+11. Next step is committing. Type the following:
 
   ```
   ➜  git commit -m "first edits to index.html"
   ```
   Now enter `git status` again. Notice that the new status is `Your branch is ahead of 'origin/master' by 1 commit.`. This indicates that your the version of the repo on your computer (aka the __local__ version) includes your changes but the version hosted by GitHub (aka the __remote__ version) does not.
 
-1. To get your changes on to the remote version of the repo, type
+12. To get your changes on to the remote version of the repo, type
 
   ```
   ➜  git push origin master
@@ -93,9 +94,9 @@
 
   Now `git status` will tell you that `Your branch is up-to-date with 'origin/master'.` __!!!__
 
-2. Check back in on your site to see the improvements deployed!
+13. Check back in on your site to see the improvements deployed!
 
-1. Repeat steps 11 onward at least three times to improve your site and practice this Git workflow.
+14. Repeat steps 11 onward at least three times to improve your site and practice this Git workflow.
 
 # Deliverables
 
