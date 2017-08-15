@@ -61,9 +61,7 @@ This assignment has 2 goals: it lets you practice using Git and GitHub, and also
 
   <details>
     <summary>
-
-    In the `<head>` element, change the `<title>` of the page. Where can you observe the impact of this change?
-
+    In the head element, change the title of the page. Where can you observe the impact of this change?
     </summary>
     <p>On the tab in the browser, your site will display a new name. It used to be "First Training."</p>
   </details>
@@ -71,9 +69,7 @@ This assignment has 2 goals: it lets you practice using Git and GitHub, and also
   <details>
     <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
     <p>
-
-    You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.
-
+    You'd want to write your custom JS in the assets/js/app.js file. Once this file grows big enough you might want to create new JS files in the assets/js folder.
     </p>
   </details>
 
