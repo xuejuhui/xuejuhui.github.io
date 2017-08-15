@@ -18,6 +18,8 @@ This assignment has 2 goals: it lets you practice using Git and GitHub, and also
 
 4. Go to the website `<username>.github.io`!  You have a web presence now!! It's not perfect, but it will be a work in progress over the whole course and it's an excellent start! If you want to change the content, you're going to need a copy on your own computer to edit and improve.
 
+>If your site isn't showing up, that's somewhat normal. You can try going back to the settings tab, and changing the theme of your page, which sometimes works to make the site show up. (Just go back and change the theme back after the page has shown up on github.io.)
+
 5. Click the clone or download button and copy the "clone URL."
 
   ![clone button](https://cloud.githubusercontent.com/assets/6520345/17565250/87ec41b8-5eeb-11e6-8fc8-280aa6e14611.png)
@@ -53,9 +55,7 @@ This assignment has 2 goals: it lets you practice using Git and GitHub, and also
   <details>
     <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
     <p>
-
-    There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in the `vendor/css` folder because it's a file developed by somebody else (a vendor) and you won't be editing it. `main.css` is in the `assets/css` folder and is the custom styling that you'll spend time adjusting.
-
+    There are two stylesheets, normalize.css and main.css. normalize.css is in the vendor/css folder because it's a file developed by somebody else (a vendor) and you won't be editing it. main.css is in the assets/css folder and is the custom styling that you'll spend time adjusting.
     </p>
   </details>
 
