@@ -1,5 +1,7 @@
 # Learn Git Training
 
+This assignment has 2 goals: it lets you practice using Git and GitHub, and also gives you practice creating a site.
+
 1. Create a fork of the [this](https://github.com/sf-wdi-LABS/personal-portfolio) by clicking "Fork" on the top right.
 
   ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
@@ -47,20 +49,32 @@
   ```
 
 10. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
-  
+
   <details>
     <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
-    <p>There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in the `vendor/css` folder because it's a file developed by somebody else (a vendor) and you won't be editing it. `main.css` is in the `assets/css` folder and is the custom styling that you'll spend time adjusting.</p>
+    <p>
+
+    There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in the `vendor/css` folder because it's a file developed by somebody else (a vendor) and you won't be editing it. `main.css` is in the `assets/css` folder and is the custom styling that you'll spend time adjusting.
+
+    </p>
   </details>
-    
+
   <details>
-    <summary>In the `<head>` element, change the `<title>` of the page. Where can you observe the impact of this change?</summary>
+    <summary>
+
+    In the `<head>` element, change the `<title>` of the page. Where can you observe the impact of this change?
+
+    </summary>
     <p>On the tab in the browser, your site will display a new name. It used to be "First Training."</p>
   </details>
-  
+
   <details>
     <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
-    <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
+    <p>
+
+    You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.
+
+    </p>
   </details>
 
 11. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
