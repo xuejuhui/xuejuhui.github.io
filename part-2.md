@@ -34,12 +34,11 @@ let myHTML = `<h3>${project.title}</h3>`;
 5. Once you're satisfied that you can add ONE project to the page, extend your object into an array of objects, and loop through those objects. You shouldn't have to change your code from steps 3 and 4 much, except that they're now in a loop.
 
 This is what's _required_ for Monday. If you get through this and still need more challenges, options include:
-
--Incorporate flex layout in your portfolio
--Re-do your portfolio's CSS with Bootstrap
+* Incorporate flex layout in your portfolio
+* Re-do your portfolio's CSS with Bootstrap
   -Incorporate Bootstrap JS components for modals/carousels/whatever features interest you
--Add more information about each project & incorporate that in what you append to the page
--Add projects from earlier in the week to your portfolio. Make a page that sings the bottles of beer song, or that generates Shakespearian insults and puts them on the page. Take those pure-JS exercises you worked on earlier, and incorporate them with HTML/jQuery to make them part of your site.
--Literally anything else that makes this portfolio into a more interesting or useful site for you to work on
+* Add more information about each project & incorporate that in what you append to the page
+* Add projects from earlier in the week to your portfolio. Make a page that sings the bottles of beer song, or that generates Shakespearian insults and puts them on the page. Take those pure-JS exercises you worked on earlier, and incorporate them with HTML/jQuery to make them part of your site.
+* Literally anything else that makes this portfolio into a more interesting or useful site for you to work on
 
 On Monday, we will pair up and you'll review each others' code, so you might also want to make sure your code is ready to be read/understood by a classmate.
