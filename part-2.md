@@ -4,6 +4,10 @@ It can be a drag to write HTML for a bunch of similar pieces of a website. It me
 
 Your overall goal is to use an array of objects, where each object has data about a single project. You'll loop through that array, constructing HTML about that project and adding it to the page.
 
+Please have <strong> at least </strong> three project objects that you are looping through on your page. Your projects should have at least a name, an image, and a link to your project.
+
+Note that these don't have to be actual projects that you've done. Feel free to make them up if you don't have three to add to your page. 
+
 Please start by writing pseudocode for how your code will look. How will you approach this problem? Put this pseudocode in your JS file, in the form of a comment.
 
 <details><summary>Sample pseudocode here!</summary>
