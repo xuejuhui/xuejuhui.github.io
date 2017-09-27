@@ -1,1 +1,39 @@
 /* custom styles */
+body{
+margin: 0;
+
+}
+button{
+	border-radius: 20px;
+
+}
+nav{
+	text-decoration: none;
+	display: inline-block;
+	padding: 40px 0 0 0;
+}
+.ironMan{
+	max-height: 700px;
+	max-width: 700px;
+	display: block;
+	margin: 0 auto;
+}
+.myWork{
+	text-align: center;
+}
+.contactMe{
+	text-align: center;
+}
+.logo{
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin: 0 0 0 500px;
+
+	
+}
+.myName{
+	text-align: center;
+	display: block;
+}
+
