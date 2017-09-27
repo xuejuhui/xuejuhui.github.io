@@ -19,21 +19,30 @@ nav{
 	margin: 0 auto;
 }
 .myWork{
-	text-align: center;
+	text-align: left;
 }
 .contactMe{
 	text-align: center;
+	display: block;
 }
 .logo{
 	height: 50px;
-	width: 50px;
-	display: block;
-	margin: 0 0 0 500px;
-
+	width: 50px; 
+	display: inline;
+	margin: 0 0 0 -220px;
 	
 }
 .myName{
 	text-align: center;
-	display: block;
+	display: inline-block;
+	padding-left: 880px;
+}
+header{
+	background-color: salmon;
+	border-radius: 20px;
+}
+footer{
+	background-color: grey;
+	min-height: 15 	0px;
 }
 
