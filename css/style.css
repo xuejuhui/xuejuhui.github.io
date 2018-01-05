@@ -452,11 +452,11 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/bball.jpg') right bottom no-repeat;
+	background: url('../img/bball.jpg') left bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #FBFBFB;
+	background-color: #FFFFFF;
 }
 .hero h1 {
 	font-size: 120px;
@@ -468,14 +468,14 @@ table {
 }
 .hero h1 span {
 	color:#a1a9b0;
-	/* display:inline-block; */
+	 display:inline-block; 
 }
-.hero h3 {
+.hero h3 {    
 	font-size: 20px;
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #E04343;
+	color: #000000;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
